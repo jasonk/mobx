@@ -104,7 +104,7 @@ class Timer {
 
 ## Creating observer components
 
-The `observer` function / decorator from the mobx-package converts react components into observer components.
+The `observer` function / decorator from the mobx-react package converts react components into observer components.
 The rule to remember here is that `@observer class ComponentName {}` is simply sugar for `const ComponentName = observer(class { })`.
 So all the following forms of creating observer components are valid:
 
